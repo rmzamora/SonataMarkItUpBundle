@@ -32,6 +32,12 @@
         "psr-0": { "Sonata\\MarkItUpBundle": "" }
     },
     "target-dir": "Sonata/MarkItUpBundle",
+    "repositories": [
+        {
+            "type": "git",
+            "url":  "https://github.com/rmzamora/SonatajQueryBundle.git"
+        }
+    ],
     "extra": {
         "branch-alias": {
             "dev-2.0": "2.0.x-dev",
