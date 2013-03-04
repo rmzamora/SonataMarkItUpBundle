@@ -1,11 +1,16 @@
 {
-    "name": "sonata-project/markitup-bundle",
+    "name": "rmzamora/markitup-bundle",
     "type": "symfony-bundle",
     "description": "Symfony SonataMarkItUpBundle",
-    "keywords": ["markitup", "sonata", "jquery", "markup", "editor", "markdown", "wiki", "bbcode", "html", "textile"],
+    "keywords": ["markitup", "sonata", "jquery", "markup", "editor", "markdown", "wiki", "bbcode", "html", "textile", "rmzamora fork"],
     "homepage": "http://sonata-project.org/bundles/markitup",
     "license": "MIT",
     "authors": [
+        {
+            "name": "Mell M. Zamora",
+            "email": "me@mellzamora.com",
+            "homepage": "http://mellzamora.com"
+        },
         {
             "name": "Thomas Rabaix",
             "email": "thomas.rabaix@sonata-project.org",
@@ -30,7 +35,8 @@
     "extra": {
         "branch-alias": {
             "dev-2.0": "2.0.x-dev",
-            "dev-master": "2.1.x-dev"
+            "dev-master": "2.1.x-dev",
+            "dev-rmzamora-master": "2.2.x-dev"
         }
     }
 }
