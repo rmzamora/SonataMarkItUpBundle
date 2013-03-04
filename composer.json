@@ -1,7 +1,7 @@
 {
     "name": "rmzamora/markitup-bundle",
     "type": "symfony-bundle",
-    "description": "Symfony SonataMarkItUpBundle",
+    "description": "Symfony SonataMarkItUpBundle rmzamora fork",
     "keywords": ["markitup", "sonata", "jquery", "markup", "editor", "markdown", "wiki", "bbcode", "html", "textile", "rmzamora fork"],
     "homepage": "http://sonata-project.org/bundles/markitup",
     "license": "MIT",
@@ -26,7 +26,7 @@
         }
     ],
     "require": {
-        "sonata-project/jquery-bundle": "1.*"
+        "rmzamora/jquery-bundle": "1.8.*@dev"
     },
     "autoload": {
         "psr-0": { "Sonata\\MarkItUpBundle": "" }
